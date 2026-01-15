@@ -32,13 +32,14 @@
               </v-btn>
             </div>
           </v-col>
-          <v-col cols="12" md="6" class="text-center">
+          <v-col cols="12" md="6" class="text-center d-flex justify-center">
             <v-img 
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               alt="Cemetery care"
-              class="rounded-xl elevation-10"
-              aspect-ratio="4/3"
-              max-height="400"
+              class="rounded-xl elevation-10 hero-image"
+              cover
+              aspect-ratio="16/9"
+              max-width="60%"
             />
           </v-col>
         </v-row>
@@ -304,5 +305,9 @@ const scrollToServices = () => {
 
 .gap-3 {
   gap: 12px;
+}
+
+.hero-image :deep(img) {
+  object-position: center 10% !important;
 }
 </style>
