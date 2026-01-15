@@ -62,16 +62,6 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'vercel',
-    externals: {
-      inline: [
-        'vue',
-        'vue-bundle-renderer',
-        '@vue/shared',
-        '@vue/runtime-core',
-        '@vue/runtime-dom',
-        '@vue/server-renderer'
-      ]
-    }
+    preset: 'vercel'
   }
 })

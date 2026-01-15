@@ -4171,7 +4171,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "2def9b07-f865-4195-bb0b-832bba670baf",
+    "buildId": "453c9ae6-ed3f-4bfa-8154-57a4ed7d1e87",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -4202,8 +4202,8 @@ const _inlineRuntimeConfig = {
   "public": {
     "appName": "GraveCare"
   },
-  "tursoDbUrl": "",
-  "tursoAuthToken": "",
+  "tursoDbUrl": "libsql://grave-care-dmitriikargashin.aws-us-east-1.turso.io",
+  "tursoAuthToken": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3Njg0ODg2NzcsImlkIjoiOTIwZjdhNjgtNmFiYy00MzY4LWIxMTMtNTE1YTQxZjU5MWExIiwicmlkIjoiZjJmOTJlMDEtNTE1Zi00MDE1LTllODAtN2MwZjY0YTU5NDUyIn0.4tR0MhfIX36Q4JYUfWeD5-CVdz5Obq7masmqyj3gP1uJpCe2BQDDjRvJeqoSdKFo-tpdPgLiG4gA-RXxvdL8AQ",
   "blobReadWriteToken": ""
 };
 const envOptions = {
