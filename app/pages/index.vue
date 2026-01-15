@@ -34,11 +34,11 @@
           </v-col>
           <v-col cols="12" md="6" class="text-center">
             <v-img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop"
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
               alt="Cemetery care"
               class="rounded-xl elevation-10"
-              cover
-              height="400"
+              aspect-ratio="4/3"
+              max-height="400"
             />
           </v-col>
         </v-row>
